@@ -2,6 +2,8 @@
 
 WebService integration with ZAP (http://www.zap.com.br/)
 
+WARNING: UNDER DEVELOPMENT
+
 == Usage
 
   ZapWs.setup do |config|
