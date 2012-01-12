@@ -1,8 +1,6 @@
 require 'active_support/inflector'
 module ZapWs
   module Message
-    # Classe responsavel por fazer o mapeamento de uma chave do hash de atributos para uma tag xml
-    #
     module Mapping
       ATTRIBUTES = {
         :codigo => "CodigoImovel",

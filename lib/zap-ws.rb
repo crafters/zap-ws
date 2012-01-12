@@ -5,6 +5,7 @@ require 'active_support/core_ext/hash'
 require 'savon'
 
 require 'zap-ws/message'
+require 'zap-ws/web_service'
 
 module ZapWs
   @@client_id = ""
