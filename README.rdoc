@@ -1,6 +1,23 @@
 = zap-ws
 
-Gem de integração com o WS da Zap (http://www.zap.com.br/)
+WebService integration with ZAP (http://www.zap.com.br/)
+
+== Usage
+
+  ZapWs.setup do |config|
+    config.client_id = "ZAP CLIENT ID"
+	config.client_password = "ZAP CLIENT PASSWORD"
+  end
+  
+  ZapWs::WebService.new.send_listings [array of listings]
+
+*don't forget the setup*
+
+== Rails
+
+  rails generate zap:install
+  
+edit the config/initializer/zap.rb with your credentials
 
 == Contributing to zap-ws
  

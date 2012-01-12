@@ -10,11 +10,13 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 require 'rake'
+require "./lib/zap-ws/version"
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "zap-ws"
+  gem.version = ZapWs::Version::STRING
   gem.homepage = "http://github.com/crafters/zap-ws"
   gem.license = "MIT"
   gem.summary = %Q{gem de integração com o ws do zap}
