@@ -8,9 +8,9 @@ WARNING: UNDER DEVELOPMENT
 
   ZapWs.setup do |config|
     config.client_id = "ZAP CLIENT ID"
-	config.client_password = "ZAP CLIENT PASSWORD"
+    config.client_password = "ZAP CLIENT PASSWORD"
   end
-  
+
   ZapWs::WebService.new.send_listings [array of listings]
 
 *don't forget the setup*
