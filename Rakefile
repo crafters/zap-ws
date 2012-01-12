@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "zap-ws"
-  gem.homepage = "http://github.com/fellix/zap-ws"
+  gem.homepage = "http://github.com/crafters/zap-ws"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{gem de integração com o ws do zap}
+  gem.description = %Q{gem de integração com o ws do zap}
   gem.email = "felix.rafael@gmail.com"
   gem.authors = ["Rafael Felix"]
   # dependencies defined in Gemfile
@@ -38,7 +38,7 @@ end
 
 task :default => :spec
 
-require 'rake/rdoctask'
+require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 

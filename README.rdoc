@@ -1,6 +1,6 @@
 = zap-ws
 
-Description goes here.
+Gem de integração com o WS da Zap (http://www.zap.com.br/)
 
 == Contributing to zap-ws
  
