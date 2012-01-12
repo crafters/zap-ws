@@ -15,7 +15,7 @@ WebService integration with ZAP (http://www.zap.com.br/)
 
 == Rails
 
-  rails generate zap:install
+  rails generate zap_ws:install
   
 edit the config/initializer/zap.rb with your credentials
 
