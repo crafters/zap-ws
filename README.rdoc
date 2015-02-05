@@ -2,7 +2,7 @@
 
 WebService integration with ZAP (http://www.zap.com.br/)
 
-[![Code Climate](https://codeclimate.com/github/crafters/zap-ws/badges/gpa.svg)](https://codeclimate.com/github/crafters/zap-ws)
+{<img src="https://codeclimate.com/github/crafters/zap-ws/badges/gpa.svg" />}[https://codeclimate.com/github/crafters/zap-ws]
 
 WARNING: UNDER DEVELOPMENT
 
